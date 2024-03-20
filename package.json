@@ -1,4 +1,8 @@
 {
   "name": "yarn-patch-demo",
-  "packageManager": "yarn@4.1.1"
+  "packageManager": "yarn@4.1.1",
+  "type": "module",
+  "dependencies": {
+    "lodash-es": "^4.17.21"
+  }
 }
