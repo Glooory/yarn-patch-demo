@@ -1,5 +1,5 @@
-import { toUpper } from "lodash-es";
+import _ from "lodash-es";
 
 const title = "yarn patch";
 
-console.log(toUpper(title));
+console.log(_.toUpper(title));

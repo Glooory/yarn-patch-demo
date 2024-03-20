@@ -1,0 +1,19 @@
+diff --git a/toUpper.js b/toUpper.js
+index 6ec73fb05d727f0d220d9d1363eff5d4b1cc0b58..0c0f6f60230dc34e82c184d408706f227c94719a 100644
+--- a/toUpper.js
++++ b/toUpper.js
+@@ -1,4 +1,4 @@
+-import toString from './toString.js';
++import toString from "./toString.js";
+ 
+ /**
+  * Converts `string`, as a whole, to upper case just like
+@@ -22,7 +22,7 @@ import toString from './toString.js';
+  * // => '__FOO_BAR__'
+  */
+ function toUpper(value) {
+-  return toString(value).toUpperCase();
++  return toString(value).toUpperCase().replace(/\s+/g, "_");
+ }
+ 
+ export default toUpper;

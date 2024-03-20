@@ -3,6 +3,6 @@
   "packageManager": "yarn@4.1.1",
   "type": "module",
   "dependencies": {
-    "lodash-es": "^4.17.21"
+    "lodash-es": "patch:lodash-es@npm%3A4.17.21#~/.yarn/patches/lodash-es-npm-4.17.21-b45832dfce.patch"
   }
 }
